@@ -40,8 +40,11 @@ menor = matriz[1][1];
 
 
 printf("\n soma da matriz: %2.0f", soma_mat);
+
 media = (soma_mat / 9);
+
 printf("\n media: %2.0f", media);
+
 printf("\n maior:%2.0f / menor: %2.0f", maior ,menor);
 
 for(i = 0; i < 3; i++){
@@ -54,7 +57,9 @@ for(i = 0; i < 3; i++){
       
 }
 media_sec = (soma_sec / 3);
+
 printf("\n media dig secundaria: %2.0f", media_sec);
+
 printf("\n pares dig secundaria: %d", par_sec);
 
 
